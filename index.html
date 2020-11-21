@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  
-  <meta name="renderer" content="webkit">
-  <meta http-equiv
-    #container.show {
-      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
-    }
-  </style>
-  牛逼
-<meta name="generator" content="11"></head>
+<body>
 
-      
-      
-      
-    
-    
+<p>点击下面的按钮来显示今天是周几：</p>
+
+<button onclick="myFunction()">点击这里</button>
+
+<p id="demo"></p>
+
+<script>
+ function myFunction()
+ {
+ var x;
+ var d=new Date().getDay();
+ switch (d)
+ {
+ case 0:
+ x="Today it's Sunday";
+ break;
+ case 1:
+ x="Today it's Monday";
+ break;
+ case 2:
+ x="Today it's Tuesday";
+ break;
+ case 3:
+ x="Today it's Wednesday";
+ break;
+ case 4:
+ x="Today it's Thursday";
+ break;
+ case 5:
+ x="Today it's Friday";
+ break;
+ case 6:
+ x="Today it's Saturday";
+ break;
+ }
+ document.getElementById("demo").innerHTML=x;
+ }
+</script>
+
+</body>
+</html>
