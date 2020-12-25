@@ -1,1 +1,23 @@
-6242ds
+.example{/*父元素div*/
+
+position: relative;/*相対定位*/
+
+}
+
+.example p {
+
+position: absolute;/*絶対定位*/
+
+color: white;/*文字设为白色*/
+
+top: 0;
+
+left: 0;
+
+}
+
+.example img {
+
+width: 100%;
+
+}
