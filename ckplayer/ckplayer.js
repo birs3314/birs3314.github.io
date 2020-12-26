@@ -1506,16 +1506,16 @@
 				this.CB['loading'].appendChild(imgTemp);
 			}
 			//构建logo图标
-			imgFile=thisStyle['logo']['file'];
-			if(!this.isUndefined(thisStyle['logo']['fileH5'])){
-				imgFile=thisStyle['logo']['fileH5'];
-			}
-			if(imgFile){
-				imgTemp=document.createElement('img');
-				imgTemp.src=imgFile;
-				imgTemp.border=0;
-				this.CB['logo'].appendChild(imgTemp);
-			}			
+			//imgFile=thisStyle['logo']['file'];
+			//if(!this.isUndefined(thisStyle['logo']['fileH5'])){
+			//	imgFile=thisStyle['logo']['fileH5'];
+			//}
+			//if(imgFile){
+				//imgTemp=document.createElement('img');
+				//imgTemp.src=imgFile;
+				//imgTemp.border=0;
+				//this.CB['logo'].appendChild(imgTemp);
+			//}			
 			//定义界面元素的样式
 			if(this.ckConfig['config']['buttonMode']['player']){
 				this.css(this.PD, {cursor: 'pointer'});
