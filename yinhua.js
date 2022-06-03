@@ -220,3 +220,7 @@ function stopp() {
 		startSakura();
 	}
 }
+main()
+var a = 10 
+var c= 10
+console.log(a+c)
